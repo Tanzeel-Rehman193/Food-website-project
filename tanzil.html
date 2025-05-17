@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myonlinemeal.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <script src="/food/index.js"></script>
+    <!-- style
+        include style.css
+    style
+        include phone.css -->
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="../food//static/logo.png" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="search">
+            <lord-icon src="https://cdn.lordicon.com/pagmnkiz.json" trigger="hover"
+                colors="primary:#ffffff,secondary:#2516c7" stroke="bold" style="width:30px;height:30px">
+            </lord-icon>
+            <input class="siri" type="search" name="search" placeholder="search">
+        </div>
+        <div class="date">
+            <lord-icon src="https://cdn.lordicon.com/qvyppzqz.json" trigger="hover" stroke="bold"
+                colors="primary:#ffffff,secondary:#c71f16" style="width:45px;height:45px">
+            </lord-icon>
+            <span id="time"></span>
+        </div>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to Myonlinemeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque vel quae, nemo quis eos quam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn">Order Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="../food/static/1.png" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nesciunt
+                    exercitationem optio deserunt asperiores, sit harum eos, dignissimos quo voluptatibus explicabo
+                    praesentium laborum inventore et, similique molestiae alias laudantium a dolores aliquam modi!
+                    Quam.
+                </p>
+            </div>
+            <div class="box">
+                <img src="../food/static/2.png" alt="">
+                <h2 class="h-secondary center">Bulk ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nesciunt
+                    exercitationem optio deserunt asperiores, sit harum eos, dignissimos quo voluptatibus explicabo
+                    praesentium laborum inventore et, similique molestiae alias laudantium a dolores aliquam modi!
+                    Quam.
+                </p>
+            </div>
+            <div class="box">
+                <img src="../food/static/3.png" alt="">
+                <h2 class="h-secondary center">Food Odering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nesciunt
+                    exercitationem optio deserunt asperiores, sit harum eos, dignissimos quo voluptatibus explicabo
+                    praesentium laborum inventore et, similique molestiae alias laudantium a dolores aliquam modi!
+                    Quam.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="../food/static/logo1.png" alt="our client">
+            </div>
+            <div class="client-item">
+                <img src="../food/static/logo2.png" alt="our client">
+            </div>
+            <div class="client-item">
+                <img src="../food/static/logo4.png" alt="our client">
+            </div>
+            <div class="client-item">
+                <img src="../food/static/logo3.png" alt="our client">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="/" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email:</label>
+                    <input type="email" name="email" id="Email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group">
+                    <label for="name">PH#:</label>
+                    <input type="phone" name="contact" id="phone" placeholder="Enter your Ph#">
+                </div>
+                <div class="form-group">
+                    <label for="message">message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div id="seh">
+                    <button id="sub" type="submit">Submit</button>
+                    <button id="res" type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.Myonlinemeal.com.All rights reserved!
+        </div>
+    </footer>
+    <!-- script
+        include index.js -->
+</body>
+
+</html>
